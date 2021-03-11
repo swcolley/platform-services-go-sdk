@@ -42,7 +42,7 @@ import (
 // in a configuration file and then:
 // export IBM_CREDENTIALS_FILE=<name of configuration file>
 //
-const externalConfigFile = "../enterprise_management_v1.env"
+const externalConfigFile = "../enterprise_management.env"
 
 var (
 	enterpriseManagementService *enterprisemanagementv1.EnterpriseManagementV1
